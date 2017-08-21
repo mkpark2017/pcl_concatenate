@@ -1,0 +1,5 @@
+<launch>
+  <node name="transform1" pkg="pcl_concatenate" type="transform1" />
+  <node name="transform2" pkg="pcl_concatenate" type="transform2" />
+  <node name="concatenate" pkg="pcl_concatenate" type="concatenate" />
+</launch>
